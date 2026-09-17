@@ -5,7 +5,7 @@ go 1.26.0
 require (
 	github.com/bytedance/sonic v1.15.4
 	github.com/gofiber/fiber/v2 v2.42.0
-	github.com/rs/zerolog v1.29.0
+	github.com/rs/zerolog v1.35.1
 )
 
 require (
@@ -16,8 +16,8 @@ require (
 	github.com/google/uuid v1.3.0 // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
 	github.com/magiconair/properties v1.8.7 // indirect
-	github.com/mattn/go-colorable v0.1.13 // indirect
-	github.com/mattn/go-isatty v0.0.17 // indirect
+	github.com/mattn/go-colorable v0.1.14 // indirect
+	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/mattn/go-runewidth v0.0.14 // indirect
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
 	github.com/pelletier/go-toml/v2 v2.0.6 // indirect
