@@ -64,14 +64,15 @@ func GetFileList(c *fiber.Ctx) error {
 }
 
 func GetMasterTable(c *fiber.Ctx) error {
-	// Since we can potentially have multiple "table[]" query parameters, we iterate over them to get the full list
-	tableNames := c.Context().QueryArgs().PeekMulti("table[]")
-	for _, tableName := range tableNames {
-		log.Info().Msgf("GET /title/get_master_table?table[]=%s", tableName)
-	}
-	err := c.Status(fiber.StatusOK).SendString("Coming soon!")
-	if err != nil {
-		log.Fatal().Err(err).Msg("Error in getting master table data.")
-	}
-	return err
+    tableNames := c.Context().QueryArgs().PeekMulti("table[]")
+    for _, tableName := range tableNames {
+        log.Info().Msgf("GET /title/get_master_table?table[]=%s", tableName)
+    }
+    err := c.Status(fiber.StatusOK).JSON(fiber.Map{
+        "error_code": 0,
+    })
+    if err != nil {
+        log.Fatal().Err(err).Msg("Error in getting master table data.")
+    }
+    return err
 }
