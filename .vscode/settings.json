@@ -34,7 +34,7 @@
   },
   "[go]": {
     "editor.codeActionsOnSave": {
-      "source.organizeImports": true
+      "source.organizeImports": "explicit"
     },
     "editor.defaultFormatter": "golang.go",
     "editor.snippetSuggestions": "inline",
