@@ -15,8 +15,8 @@ import (
 const PackInfoURL = "https://%s%s/pack/%d/"
 
 func GetPackInfo(c *fiber.Ctx) error {
+	log.Info().Str("body", string(c.Body())).Msg("payload from client")
 	log.Info().Msg("POST /title/get_pack_info")
-
 	configuration := config.GlobalConfig
 	host := c.Hostname()
 	proto := c.Protocol()
