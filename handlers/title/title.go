@@ -5,9 +5,7 @@ import (
 	"os"
 
 	"msattack/config"
-	"msattack/errors"
 	"msattack/managers"
-	"msattack/utils"
 
 	"github.com/bytedance/sonic"
 	"github.com/gofiber/fiber/v2"
@@ -23,15 +21,13 @@ func GetPackInfo(c *fiber.Ctx) error {
 	host := c.Hostname()
 	proto := c.Protocol()
 
-	// Aseguramos URL absoluta limpia con protocolo y host actual de Render
 	actualPackInfoURL := fmt.Sprintf("%s://%s/snkp/msatk/prod/pack/6120000/pack_info_list.txt", proto, host)
 
-	// Estructura segura compatible con forks de msattack
 	return c.Status(fiber.StatusOK).JSON(fiber.Map{
-		"version":    configuration.PackVersion,
-		"url":        actualPackInfoURL,
-		"status":     0,
-		"response":   0, // Forzado a 0 o estructura estándar de éxito si el APK rechaza objeto complejo
+		"version":     configuration.PackVersion,
+		"url":         actualPackInfoURL,
+		"status":      0,
+		"response":    0,
 		"server_time": 1700000000,
 	})
 }
