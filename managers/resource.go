@@ -19,29 +19,19 @@ type FileData struct {
 }
 
 func GenerateFileList() []FileData {
-	// The backend server serves different sets of files depending on the current game version.
-	// Currently, this function will only generate the latest file list for now.
-	// Future work can be done to incorporate the mapping of game versions to file lists.
-
 	configuration := config.GlobalConfig
-
 	var files []FileData
 
-	switch configuration.MasterVersion {
-	case 7130000:
-		fileListBytes, err := os.ReadFile(configuration.FileListFilename)
-		if err != nil {
-			log.Error().Err(err).Msg("Failed to read file list.")
-			files = []FileData{}
-		} else {
-			err = sonic.Unmarshal(fileListBytes, &files)
-			if err != nil {
-				log.Error().Err(err).Msg("Failed to unmarshal file list.")
-				files = []FileData{}
-			}
-		}
-	default:
-		files = []FileData{}
+	fileListBytes, err := os.ReadFile(configuration.FileListFilename)
+	if err != nil {
+		log.Error().Err(err).Msg("Failed to read file list.")
+		return []FileData{}
+	}
+
+	err = sonic.Unmarshal(fileListBytes, &files)
+	if err != nil {
+		log.Error().Err(err).Msg("Failed to unmarshal file list.")
+		return []FileData{}
 	}
 
 	return files
