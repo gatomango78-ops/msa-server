@@ -44,7 +44,7 @@ func main() {
 		c.Set("MSA-Signature", "https://github.com/jamestiotio/msattack")
 		return c.Next()
 	})
-
+    app.Static("/snkp", "./snkp")
 	// Define global maintenance mode handler
 	app.Use(middleware.CheckForMaintenance)
 
