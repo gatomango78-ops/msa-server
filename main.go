@@ -61,6 +61,8 @@ func main() {
 	storagePackGroup := storageGroup.Group(fmt.Sprintf("/pack/%d", configuration.PackVersion))
 	storagePackGroup.Get("/:pack_file_name", storage.GetPackFile)
 
+	app.Static("/snkp", "./snkp")
+	
 	log.Info().Msg("Spinning up server on port " + fmt.Sprintf("%d", configuration.Port) + "...")
 
 	port := fmt.Sprintf(":%d", configuration.Port)
