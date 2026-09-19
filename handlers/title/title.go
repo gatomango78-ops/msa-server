@@ -1,7 +1,7 @@
 package title
 
 import (
-	
+	"fmt"
 	"os"
 
 	"msattack/config"
@@ -14,13 +14,17 @@ import (
 	"github.com/rs/zerolog/log"
 )
 
-const PackInfoURL = `https://%s%s/pack/%d/`
+const PackInfoURL = "https://%s%s/pack/%d/"
 
 func GetPackInfo(c *fiber.Ctx) error {
     log.Info().Msg("POST /title/get_pack_info")
 
     configuration := config.GlobalConfig
-    actualPackInfoURL := "/snkp/msatk/prod/pack/6120000/pack_info_list.txt"
+    host := c.Hostname()
+    proto := c.Protocol()
+    
+    // URL completa para que el cliente la interprete bien
+    actualPackInfoURL := fmt.Sprintf("%s://%s/snkp/msatk/prod/pack/6120000/pack_info_list.txt", proto, host)
 
     return c.Status(fiber.StatusOK).JSON(fiber.Map{
         "version":  configuration.PackVersion,
