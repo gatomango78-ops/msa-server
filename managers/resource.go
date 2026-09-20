@@ -10,10 +10,9 @@ import (
 
 type FileData struct {
 	FileName string json:"file_name"
-	FileSize any    json:"file_size"
+	FileSize interface{} json:"file_size"
 	Hash     string json:"hash"
-	// "target" is "0" for normal files and "1" for master table files
-	Target   any    json:"target"
+	Target   interface{} json:"target"
 	URL      string json:"url"
 }
 
