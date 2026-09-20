@@ -35,13 +35,13 @@ func GetFileList(c *fiber.Ctx) error {
 	log.Info().Str("raw_body", string(c.Body())).Msg("client request body")
 	log.Info().Msg("POST /title/get_file_list")
 	log.Info().Any("file_list", managers.GenerateFileList()).Msg("checking file list")
-	configuration := config.GlobalConfig
-
+	
 	dump, _ := sonic.MarshalString(managers.GenerateFileList())
 	log.Info().Str("json_dump", dump).Msg("inspect file list")
 	
 	return c.Status(fiber.StatusOK).JSON(fiber.Map{
-		"master_ver":                 configuration.MasterVersion,
+		"master_ver":                 7130000,
+		"dl_mtbl_merge_lim_size":     2097152,
 		"max_dl_stream_num_for_mtbl": 1,
 		"max_dl_stream_num_for_dlc":  4,
 		"status":                     0,
