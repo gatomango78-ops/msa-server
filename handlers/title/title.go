@@ -63,7 +63,7 @@ func GetMasterTable(c *fiber.Ctx) error {
 		log.Error().Err(readErr).Msg("Failed to read master table file.")
 		return c.Status(fiber.StatusInternalServerError).JSON(fiber.Map{"status": 1, "response": 1})
 	}
-
+        log.Info().Str("path_leido", configuration.MasterTableFilename).Int("bytes_leidos", len(rawBytes)).Msg("debug bytes maestro")
 	var fullTable map[string]sonic.NoCopyRawMessage
 	if unmarshalErr := sonic.Unmarshal(rawBytes, &fullTable); unmarshalErr != nil {
 		log.Error().Err(unmarshalErr).Msg("Failed to unmarshal master table file.")
