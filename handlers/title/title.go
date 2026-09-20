@@ -56,7 +56,7 @@ func GetMasterTable(c *fiber.Ctx) error {
 	for _, tableName := range tableNames {
 		requestedTables = append(requestedTables, string(tableName))
 	}
-
+        log.Info().Strs("requested_tables", requestedTables).Msg("ingresando a GetMasterTable")
 	configuration := config.GlobalConfig
 	rawBytes, readErr := os.ReadFile(configuration.MasterTableFilename)
 	if readErr != nil {
