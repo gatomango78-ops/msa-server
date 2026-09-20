@@ -54,7 +54,7 @@ func main() {
 	titleGroup := app.Group("/title")
 	titleGroup.Post("/get_pack_info", title.GetPackInfo)
 	titleGroup.Post("/get_file_list", title.GetFileList)
-	titleGroup.Get("/get_master_table", title.GetMasterTable)
+	titleGroup.All("/get_master_table", title.GetMasterTable)
 
 	storageGroup := app.Group(configuration.DataStorageEndpoint)
 	storageGroup.Get("/:version/:file_name", storage.GetDataFile)
