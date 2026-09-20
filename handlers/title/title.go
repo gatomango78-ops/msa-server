@@ -77,18 +77,22 @@ func GetMasterTable(c *fiber.Ctx) error {
 		})
 	}
 
+	log.Info().Strs("requested_tables", requestedTables).Msg("master_table incoming request")
+
 	responseTable := fullTable
 	if len(requestedTables) > 0 {
 		responseTable = make(map[string]sonic.NoCopyRawMessage, len(requestedTables))
 		for _, name := range requestedTables {
 			if data, ok := fullTable[name]; ok {
 				responseTable[name] = data
+			} else {
+				log.Warn().Str("missing_table", name).Msg("Requested table not found in JSON file")
 			}
 		}
 	}
 
 	return c.Status(fiber.StatusOK).JSON(fiber.Map{
-		"master_ver": configuration.MasterVersion,
+		"master_ver": 7130000,
 		"status":     0,
 		"response":   0,
 		"table":      responseTable,
