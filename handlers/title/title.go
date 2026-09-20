@@ -15,21 +15,18 @@ import (
 const PackInfoURL = "https://%s%s/pack/%d/"
 
 func GetPackInfo(c *fiber.Ctx) error {
-	log.Info().Str("body", string(c.Body())).Msg("payload from client")
-	log.Info().Msg("POST /title/get_pack_info")
-	configuration := config.GlobalConfig
-	host := c.Hostname()
-	proto := c.Protocol()
-
-	actualPackInfoURL := fmt.Sprintf("%s://%s/snkp/msatk/prod/pack/6120000/pack_info_list.txt", proto, host)
-
-	return c.Status(fiber.StatusOK).JSON(fiber.Map{
-		"version":     configuration.PackVersion,
-		"url":         actualPackInfoURL,
-		"status":      0,
-		"response":    0,
-		"server_time": 1700000000,
-	})
+    log.Info().Str("body", string(c.Body())).Msg("payload from client")
+    host := c.Hostname()
+    proto := c.Protocol()
+    actualPackInfoURL := fmt.Sprintf("%s://%s/snkp/msatk/prod/pack/6120000/pack_info_list.txt", proto, host)
+    
+    return c.Status(fiber.StatusStatusOK).JSON(fiber.Map{
+        "version":     6120000,
+        "url":         actualPackInfoURL,
+        "status":      0,
+        "response":    0,
+        "server_time": time.Now().Unix(),
+    })
 }
 
 func GetFileList(c *fiber.Ctx) error {
