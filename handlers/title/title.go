@@ -32,6 +32,7 @@ func GetPackInfo(c *fiber.Ctx) error {
 }
 
 func GetFileList(c *fiber.Ctx) error {
+	log.Info().Str("raw_body", string(c.Body())).Msg("client request body")
 	log.Info().Msg("POST /title/get_file_list")
 	log.Info().Any("file_list", managers.GenerateFileList()).Msg("checking file list")
 	configuration := config.GlobalConfig
