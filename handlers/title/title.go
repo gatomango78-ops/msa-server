@@ -37,6 +37,9 @@ func GetFileList(c *fiber.Ctx) error {
 	log.Info().Any("file_list", managers.GenerateFileList()).Msg("checking file list")
 	configuration := config.GlobalConfig
 
+	dump, _ := sonic.MarshalString(managers.GenerateFileList())
+	log.Info().Str("json_dump", dump).Msg("inspect file list")
+	
 	return c.Status(fiber.StatusOK).JSON(fiber.Map{
 		"master_ver":                 configuration.MasterVersion,
 		"max_dl_stream_num_for_mtbl": 1,
