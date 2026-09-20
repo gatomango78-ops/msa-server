@@ -82,8 +82,8 @@ func GetMasterTable(c *fiber.Ctx) error {
 	if len(responseTable) == 0 {
 		responseTable = fullTable
 	}
-    responseBytes, _ := sonic.Marshal(responseTable)
-	    log.Info().Int("response_table_bytes", len(responseBytes)).Msg("sending master_table payload")
+   responseBytes, _ := sonic.Marshal(responseTable)
+        log.Info().Int("response_table_bytes_v3", len(responseBytes)).Msg("sending master_table payload v3")
 	return c.Status(fiber.StatusOK).JSON(fiber.Map{
 		"master_ver": 7130000,
 		"status":     0,
