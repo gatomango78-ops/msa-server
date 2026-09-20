@@ -1,8 +1,10 @@
 package title
 
 import (
-	"fmt"
-	"os"
+    "fmt"
+    "os"
+	"time"
+    
 
 	"msattack/config"
 	"msattack/managers"
@@ -20,7 +22,7 @@ func GetPackInfo(c *fiber.Ctx) error {
     proto := c.Protocol()
     actualPackInfoURL := fmt.Sprintf("%s://%s/snkp/msatk/prod/pack/6120000/pack_info_list.txt", proto, host)
     
-    return c.Status(fiber.StatusStatusOK).JSON(fiber.Map{
+    return c.Status(fiber.StatusOK).JSON(fiber.Map{
         "version":     6120000,
         "url":         actualPackInfoURL,
         "status":      0,
