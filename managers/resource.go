@@ -30,6 +30,8 @@ func GenerateFileList() []FileData {
 		log.Error().Err(err).Msg("Failed to unmarshal file list.")
 		return []FileData{}
 	}
-
+    if len(files) > 0 {
+        log.Info().Str("sample_url", files[0].URL).Msg("checking first file url")
+    }
 	return files
 }
