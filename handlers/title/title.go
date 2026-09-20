@@ -90,6 +90,6 @@ func GetMasterTable(c *fiber.Ctx) error {
 		"master_ver": 7130000,
 		"status":     0,
 		"response":   0,
-		"table":      responseTable,
+		"table":      fulltable,
 	})
 }
