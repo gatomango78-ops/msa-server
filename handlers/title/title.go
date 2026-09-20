@@ -70,6 +70,8 @@ func GetMasterTable(c *fiber.Ctx) error {
 		return c.Status(fiber.StatusInternalServerError).JSON(fiber.Map{"status": 1, "response": 1})
 	}
 
+	    log.Info().Int("keys_en_fulltable", len(fullTable)).Msg("chequeando fullTable")
+
 	responseTable := make(map[string]sonic.NoCopyRawMessage)
 	if len(requestedTables) > 0 {
 		for _, name := range requestedTables {
