@@ -54,41 +54,33 @@ func GetMasterTable(c *fiber.Ctx) error {
 	tableNames := c.Context().QueryArgs().PeekMulti("table[]")
 	requestedTables := make([]string, 0, len(tableNames))
 	for _, tableName := range tableNames {
-		name := string(tableName)
-		requestedTables = append(requestedTables, name)
+		requestedTables = append(requestedTables, string(tableName))
 	}
 
 	configuration := config.GlobalConfig
 	rawBytes, readErr := os.ReadFile(configuration.MasterTableFilename)
 	if readErr != nil {
 		log.Error().Err(readErr).Msg("Failed to read master table file.")
-		return c.Status(fiber.StatusInternalServerError).JSON(fiber.Map{
-			"status":   1,
-			"response": 1,
-		})
+		return c.Status(fiber.StatusInternalServerError).JSON(fiber.Map{"status": 1, "response": 1})
 	}
 
 	var fullTable map[string]sonic.NoCopyRawMessage
 	if unmarshalErr := sonic.Unmarshal(rawBytes, &fullTable); unmarshalErr != nil {
 		log.Error().Err(unmarshalErr).Msg("Failed to unmarshal master table file.")
-		return c.Status(fiber.StatusInternalServerError).JSON(fiber.Map{
-			"status":   1,
-			"response": 1,
-		})
+		return c.Status(fiber.StatusInternalServerError).JSON(fiber.Map{"status": 1, "response": 1})
 	}
 
-	log.Info().Strs("requested_tables", requestedTables).Msg("master_table incoming request")
-
-	responseTable := fullTable
+	responseTable := make(map[string]sonic.NoCopyRawMessage)
 	if len(requestedTables) > 0 {
-		responseTable = make(map[string]sonic.NoCopyRawMessage, len(requestedTables))
 		for _, name := range requestedTables {
 			if data, ok := fullTable[name]; ok {
 				responseTable[name] = data
-			} else {
-				log.Warn().Str("missing_table", name).Msg("Requested table not found in JSON file")
 			}
 		}
+	}
+	// Fallback de seguridad: si las tablas pedidas vienen vacías o no matchean, devolvemos todo para evitar crash del cliente
+	if len(responseTable) == 0 {
+		responseTable = fullTable
 	}
 
 	return c.Status(fiber.StatusOK).JSON(fiber.Map{
