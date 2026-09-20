@@ -9,13 +9,12 @@ import (
 )
 
 type FileData struct {
-	FileName string json:"file_name"
-	FileSize interface{} json:"file_size"
-	Hash     string json:"hash"
-	Target   interface{} json:"target"
-	URL      string json:"url"
+	FileName string      `json:"file_name"`
+	FileSize interface{} `json:"file_size"`
+	Hash     string      `json:"hash"`
+	Target   interface{} `json:"target"`
+	URL      string      `json:"url"`
 }
-
 func GenerateFileList() []FileData {
 	configuration := config.GlobalConfig
 	var files []FileData
