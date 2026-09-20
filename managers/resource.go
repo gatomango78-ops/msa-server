@@ -4,18 +4,17 @@ import (
 	"os"
 
 	"msattack/config"
-
 	"github.com/bytedance/sonic"
 	"github.com/rs/zerolog/log"
 )
 
 type FileData struct {
-	FileName string `json:"file_name"`
-	FileSize string `json:"file_size"`
-	Hash     string `json:"hash"`
+	FileName string json:"file_name"
+	FileSize any    json:"file_size"
+	Hash     string json:"hash"
 	// "target" is "0" for normal files and "1" for master table files
-	Target string `json:"target"`
-	URL    string `json:"url"`
+	Target   any    json:"target"
+	URL      string json:"url"
 }
 
 func GenerateFileList() []FileData {
