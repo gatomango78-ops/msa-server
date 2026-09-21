@@ -17,7 +17,8 @@ import (
 const PackInfoURL = "https://%s%s/pack/%d/"
 
 func GetPackInfo(c *fiber.Ctx) error {
-    log.Info().Str("body", string(c.Body())).Msg("payload from client")
+    log.Info().Msg("debug_pack_info_reached")
+	log.Info().Str("body", string(c.Body())).Msg("payload from client")
     host := c.Hostname()
     proto := c.Protocol()
     actualPackInfoURL := fmt.Sprintf("%s://%s/snkp/msatk/prod/pack/6120000/pack_info_list.txt", proto, host)
