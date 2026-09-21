@@ -19,12 +19,12 @@ text_data = json.dumps(raw_files)
 tables = re.findall(r'm_[a-z0-9_]+', text_data)
 
 for t in set(tables):
-    master_table[t] = []
+    master_table[t] = [{"id": 1}]
 
 base_essentials = ["m_arena_class", "m_unit", "m_shop_contents", "m_shop_group", "m_stage"]
 for b in base_essentials:
     if b not in master_table:
-        master_table[b] = []
+        master_table[b] = [{"id": 1}]
 
 with open('data/master_table.json', 'w', encoding='utf-8') as f:
     json.dump(master_table, f, indent=2)

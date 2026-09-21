@@ -1,288 +1,1432 @@
 {
-  "m_off_reset_time": [],
-  "m_set_unit": [],
-  "m_gacha_fever_reward": [],
-  "m_mars_shop_campaign_rate": [],
-  "m_string_mtbl": [],
-  "m_tforce_map": [],
-  "m_united_area": [],
-  "m_unit_evol_status_14": [],
-  "m_recapture_sp_unit": [],
-  "m_supporter_evol_recipe": [],
-  "m_unit_level_status_1": [],
-  "m_gacha_select_line_up": [],
-  "m_mass_setting": [],
-  "m_unit_evol_status_4": [],
-  "m_gacha_premium_setting": [],
-  "m_unit_evol_status_5": [],
-  "m_rare_boss_stage": [],
-  "m_tline_start_stage": [],
-  "m_unit_evol_status_2": [],
-  "m_unit_team": [],
-  "m_unit_level_status_6": [],
-  "m_customize_affiliation": [],
-  "m_marathon2nd_quest_reward": [],
-  "m_string_adv_another_morden": [],
-  "m_string_adv_another_sp": [],
-  "m_skill": [],
-  "m_tline_supply_reward_condition": [],
-  "m_gacha_free_time": [],
-  "m_unit_evol_status_22": [],
-  "m_level_up_shop": [],
-  "m_united_sp_unit": [],
-  "m_unit_evol_status_13": [],
-  "m_recapture_shop_contents": [],
-  "m_pow_adv_script": [],
-  "m_gacha_fever_line_up_point": [],
-  "m_unit_skill_up": [],
-  "m_weekboss_stage": [],
-  "m_unique_action_condition": [],
-  "m_string_adv_another_regular": [],
-  "m_fix_item": [],
-  "m_enemy_deck": [],
-  "m_event_master": [],
-  "m_extra_login_bonus_reward_item": [],
-  "m_gacha_premium": [],
-  "m_unit_ability": [],
-  "m_unit_evol_status_20": [],
-  "m_unit_evol_status_21": [],
-  "m_world_map_adv": [],
-  "m_string_adv_another_ptoremaic": [],
-  "m_united_shop_contents": [],
-  "m_unit_level_status_10": [],
-  "m_extension_ranking_reward": [],
-  "m_sound_data": [],
-  "m_training": [],
-  "m_arena_order_reward": [],
-  "m_mars_shop_group": [],
-  "m_bg": [],
-  "m_tline_used_shop_group": [],
-  "m_web_link": [],
-  "m_weekboss": [],
-  "m_gacha_fever_reward_desc": [],
-  "m_chat_stamp": [],
-  "m_tline_sp_unit": [],
-  "m_rare_boss": [],
-  "m_battle_tactics_exclusion_unit": [],
-  "m_recapture_setting": [],
-  "m_period_battle": [],
-  "m_gacha_step_up_reward": [],
-  "m_custom_bgm": [],
-  "m_united_shop_group": [],
-  "m_tline_setting": [],
-  "m_bg_land_point": [],
-  "m_unit_evol_status_7": [],
-  "m_pile_quest": [],
-  "m_status_seed": [],
-  "m_unit_level_status_5": [],
-  "m_world_area_map": [],
-  "m_level": [],
-  "m_avatar": [],
-  "m_tline_hidden_boss": [],
-  "m_story_chapter_map": [],
-  "m_period_battle_ranking_reward": [],
-  "m_tline_hidden_boss_battle_reward": [],
-  "m_battle_tactics_reward": [],
-  "m_unit_evol_status_17": [],
-  "m_arena_class": [],
-  "m_gacha_line_up": [],
-  "m_string_adv_ops": [],
-  "m_unit_ver": [],
-  "m_string_supporter": [],
-  "m_battle_tactics_shop_contents": [],
-  "m_gacha_step_up_setting": [],
-  "m_recapture_point_reward": [],
-  "m_shop_group": [],
-  "m_limited_offer_sale_item": [],
-  "m_arena_setting": [],
-  "m_pow_reward_clear": [],
-  "m_tforce_gacha_line_up": [],
-  "m_tforce_sp_unit": [],
-  "m_ultimate_mission_setting": [],
-  "m_world_map": [],
-  "m_arena_reward": [],
-  "m_string_skill_info": [],
-  "m_unit_evol_status_1": [],
-  "m_limited_offer_sale_item_relation": [],
-  "m_stamina_recovery": [],
-  "m_story_map": [],
-  "m_tline_used_shop_contents": [],
-  "m_unit_level_status_7": [],
-  "m_marathon2nd_setting": [],
-  "m_mass_ranking_reward": [],
-  "m_mass_map": [],
-  "m_arena_rank_reward": [],
-  "m_arena_honor": [],
-  "m_gacha_box_parts_reward_desc": [],
-  "m_extension_appear": [],
-  "m_unit_level_status_9": [],
-  "m_tline_shop_group": [],
-  "m_unit_misc": [],
-  "m_battle_tactics_win_reward": [],
-  "m_tline_reward": [],
-  "m_unit_evol_status_23": [],
-  "m_unit_evol_status_19": [],
-  "m_unit_evol_status_15": [],
-  "m_daily_quest": [],
-  "m_equip_status": [],
-  "m_item_misc": [],
-  "m_string_tutorial": [],
-  "m_united_used_shop_group": [],
-  "m_mars_shop_contents": [],
-  "m_first_item": [],
-  "m_marathon_reward": [],
-  "m_unit": [],
-  "m_item_msp_recipe": [],
-  "m_quest": [],
-  "m_unit_evol_status_10": [],
-  "m_tforce_card_param": [],
-  "m_unit_setting": [],
-  "m_marathon2nd_quest": [],
-  "m_unit_evol_status_8": [],
-  "m_battle_tactics_shop_group": [],
-  "m_boot_camp_reward": [],
-  "m_mass_num_reward": [],
-  "m_guild_raid_map": [],
-  "m_schedule": [],
-  "m_battle_tactics_season": [],
-  "m_extension_point_reward": [],
-  "m_stage_reset": [],
-  "m_string_adv_serif": [],
-  "m_tforce_boost": [],
-  "m_united_reward": [],
-  "m_login_reward_contents": [],
-  "m_unit_jamming_disable": [],
-  "m_extension_setting": [],
-  "m_gacha_extra": [],
-  "m_recapture_shop_price": [],
-  "m_supporter_info": [],
-  "m_tutorial_select_affiliation_deck": [],
-  "m_gacha_supporter_setting": [],
-  "m_gacha_fever_setting": [],
-  "m_item_recipe": [],
-  "m_marathon_quest_reward": [],
-  "m_skill_language": [],
-  "m_search": [],
-  "m_unit_evol_status_3": [],
-  "m_string_menu": [],
-  "m_tutorial_select_unit": [],
-  "m_recapture_shop_group": [],
-  "m_string_adv_another_other": [],
-  "m_string_unit_info": [],
-  "m_tforce_route": [],
-  "m_unit_movie_url": [],
-  "m_status_seed_level": [],
-  "m_story_adv": [],
-  "m_battle_tactics_setting": [],
-  "m_vip_rank": [],
-  "m_guild_soldier": [],
-  "m_unit_info": [],
-  "m_sneak_area_stage": [],
-  "m_extension_sp_unit": [],
-  "m_pile_reward": [],
-  "m_dress_up_shop": [],
-  "m_team_skill": [],
-  "m_tforce_boost_unit": [],
-  "m_gacha_fever_bonus": [],
-  "m_setting": [],
-  "m_unit_make": [],
-  "m_unit_evol_status_11": [],
-  "m_ultimate_mission_enemy": [],
-  "m_web_link_url": [],
-  "m_mass_sp_unit": [],
-  "m_unit_evol_status_18": [],
-  "m_recapture_drop_treasure": [],
-  "m_banner": [],
-  "m_training_stage": [],
-  "m_ultimate_mission_adv_script": [],
-  "m_gacha_group": [],
-  "m_gacha_box_setting": [],
-  "m_marathon_sp_unit": [],
-  "m_battle_tactics_time_reward": [],
-  "m_tforce_gacha_reward": [],
-  "m_pile_map": [],
-  "m_supporter_adv": [],
-  "m_limited_offer": [],
-  "m_extra_login_bonus": [],
-  "m_pow_week": [],
-  "m_battle_tactics_unit": [],
-  "m_gacha_box_reward": [],
-  "m_item": [],
-  "m_marathon2nd_sp_unit": [],
-  "m_string_limited_offer": [],
-  "m_unit_double_cross_exception": [],
-  "m_unit_evol_status_12": [],
-  "m_gacha_step_up": [],
-  "m_sale": [],
-  "m_ultimate_mission_deck": [],
-  "m_tline_shop_contents": [],
-  "m_stage": [],
-  "m_build_up": [],
-  "m_equip": [],
-  "m_pile_quest_reward": [],
-  "m_unit_evol_status_6": [],
-  "m_gacha": [],
-  "m_marathon2nd_reward": [],
-  "m_guild_raid_stage": [],
-  "m_string_adv_another_mars": [],
-  "m_online_class": [],
-  "m_pile_sp_unit": [],
-  "m_unit_level_status_2": [],
-  "m_string_unit_name": [],
-  "m_arena_season": [],
-  "m_gacha_box_line_up": [],
-  "m_sneak_level_area": [],
-  "m_drop_item": [],
-  "m_quest_reward": [],
-  "m_event_master_adv": [],
-  "m_marathon2nd_map": [],
-  "m_tline_stage_link": [],
-  "m_unit_evol_status_16": [],
-  "m_gacha_supporter_reward": [],
-  "m_unit_evol_status_25": [],
-  "m_string_item_name": [],
-  "m_tline_supply_reward": [],
-  "m_united_area_reward": [],
-  "m_unit_evol_status_24": [],
-  "m_campaign": [],
-  "m_marathon_map": [],
-  "m_extra_login_bonus_reward": [],
-  "m_pow_reward_stage": [],
-  "m_string_gacha": [],
-  "m_unit_level_status_3": [],
-  "m_display": [],
-  "m_invader_drop_item": [],
-  "m_gacha_vip_bonus": [],
-  "m_unit_level_status_4": [],
-  "m_loto_reward": [],
-  "m_tline_stage_supply_drop": [],
-  "m_ranking_reward": [],
-  "m_pile_rare_reward": [],
-  "m_unit_usable": [],
-  "m_string_adv_name": [],
-  "m_string_area_name": [],
-  "m_extension_map": [],
-  "m_tforce_setting": [],
-  "m_recapture_map": [],
-  "m_tline_stage": [],
-  "m_gacha_parts_reward": [],
-  "m_string_skill_name": [],
-  "m_unit_evol_status_9": [],
-  "m_gacha_select_setting": [],
-  "m_boot_camp": [],
-  "m_united_setting": [],
-  "m_marathon_quest": [],
-  "m_gacha_ticket": [],
-  "m_limited_offer_item": [],
-  "m_team_language": [],
-  "m_unit_evol_recipe": [],
-  "m_pile_setting": [],
-  "m_marathon_setting": [],
-  "m_gacha_premium_reward": [],
-  "m_unit_level_status_8": [],
-  "m_unit_slot": [],
-  "m_united_used_shop_contents": [],
-  "m_mars_shop_rate": [],
-  "m_status_seed_param": [],
-  "m_shop_contents": []
+  "m_story_map": [
+    {
+      "id": 1
+    }
+  ],
+  "m_string_item_name": [
+    {
+      "id": 1
+    }
+  ],
+  "m_item_msp_recipe": [
+    {
+      "id": 1
+    }
+  ],
+  "m_marathon_sp_unit": [
+    {
+      "id": 1
+    }
+  ],
+  "m_unit_make": [
+    {
+      "id": 1
+    }
+  ],
+  "m_gacha_premium": [
+    {
+      "id": 1
+    }
+  ],
+  "m_ultimate_mission_deck": [
+    {
+      "id": 1
+    }
+  ],
+  "m_unit_evol_status_14": [
+    {
+      "id": 1
+    }
+  ],
+  "m_battle_tactics_unit": [
+    {
+      "id": 1
+    }
+  ],
+  "m_tline_setting": [
+    {
+      "id": 1
+    }
+  ],
+  "m_gacha_fever_bonus": [
+    {
+      "id": 1
+    }
+  ],
+  "m_tforce_sp_unit": [
+    {
+      "id": 1
+    }
+  ],
+  "m_arena_reward": [
+    {
+      "id": 1
+    }
+  ],
+  "m_unit_ability": [
+    {
+      "id": 1
+    }
+  ],
+  "m_display": [
+    {
+      "id": 1
+    }
+  ],
+  "m_skill_language": [
+    {
+      "id": 1
+    }
+  ],
+  "m_mars_shop_group": [
+    {
+      "id": 1
+    }
+  ],
+  "m_battle_tactics_win_reward": [
+    {
+      "id": 1
+    }
+  ],
+  "m_arena_order_reward": [
+    {
+      "id": 1
+    }
+  ],
+  "m_chat_stamp": [
+    {
+      "id": 1
+    }
+  ],
+  "m_gacha_ticket": [
+    {
+      "id": 1
+    }
+  ],
+  "m_string_unit_info": [
+    {
+      "id": 1
+    }
+  ],
+  "m_unit_level_status_7": [
+    {
+      "id": 1
+    }
+  ],
+  "m_unit_ver": [
+    {
+      "id": 1
+    }
+  ],
+  "m_unit_evol_status_22": [
+    {
+      "id": 1
+    }
+  ],
+  "m_gacha": [
+    {
+      "id": 1
+    }
+  ],
+  "m_marathon2nd_reward": [
+    {
+      "id": 1
+    }
+  ],
+  "m_unit_evol_status_8": [
+    {
+      "id": 1
+    }
+  ],
+  "m_extension_setting": [
+    {
+      "id": 1
+    }
+  ],
+  "m_unit_double_cross_exception": [
+    {
+      "id": 1
+    }
+  ],
+  "m_unit_evol_status_20": [
+    {
+      "id": 1
+    }
+  ],
+  "m_marathon2nd_setting": [
+    {
+      "id": 1
+    }
+  ],
+  "m_tforce_card_param": [
+    {
+      "id": 1
+    }
+  ],
+  "m_tforce_route": [
+    {
+      "id": 1
+    }
+  ],
+  "m_unit_evol_status_5": [
+    {
+      "id": 1
+    }
+  ],
+  "m_mars_shop_rate": [
+    {
+      "id": 1
+    }
+  ],
+  "m_gacha_supporter_setting": [
+    {
+      "id": 1
+    }
+  ],
+  "m_weekboss": [
+    {
+      "id": 1
+    }
+  ],
+  "m_drop_item": [
+    {
+      "id": 1
+    }
+  ],
+  "m_gacha_select_line_up": [
+    {
+      "id": 1
+    }
+  ],
+  "m_tline_reward": [
+    {
+      "id": 1
+    }
+  ],
+  "m_world_map_adv": [
+    {
+      "id": 1
+    }
+  ],
+  "m_gacha_vip_bonus": [
+    {
+      "id": 1
+    }
+  ],
+  "m_loto_reward": [
+    {
+      "id": 1
+    }
+  ],
+  "m_level": [
+    {
+      "id": 1
+    }
+  ],
+  "m_unit_evol_status_16": [
+    {
+      "id": 1
+    }
+  ],
+  "m_item_misc": [
+    {
+      "id": 1
+    }
+  ],
+  "m_gacha_line_up": [
+    {
+      "id": 1
+    }
+  ],
+  "m_marathon2nd_quest": [
+    {
+      "id": 1
+    }
+  ],
+  "m_pow_reward_stage": [
+    {
+      "id": 1
+    }
+  ],
+  "m_pile_map": [
+    {
+      "id": 1
+    }
+  ],
+  "m_gacha_premium_reward": [
+    {
+      "id": 1
+    }
+  ],
+  "m_setting": [
+    {
+      "id": 1
+    }
+  ],
+  "m_battle_tactics_setting": [
+    {
+      "id": 1
+    }
+  ],
+  "m_unit_evol_status_21": [
+    {
+      "id": 1
+    }
+  ],
+  "m_weekboss_stage": [
+    {
+      "id": 1
+    }
+  ],
+  "m_gacha_box_line_up": [
+    {
+      "id": 1
+    }
+  ],
+  "m_sale": [
+    {
+      "id": 1
+    }
+  ],
+  "m_arena_setting": [
+    {
+      "id": 1
+    }
+  ],
+  "m_event_master": [
+    {
+      "id": 1
+    }
+  ],
+  "m_supporter_info": [
+    {
+      "id": 1
+    }
+  ],
+  "m_marathon2nd_quest_reward": [
+    {
+      "id": 1
+    }
+  ],
+  "m_gacha_group": [
+    {
+      "id": 1
+    }
+  ],
+  "m_gacha_select_setting": [
+    {
+      "id": 1
+    }
+  ],
+  "m_status_seed_param": [
+    {
+      "id": 1
+    }
+  ],
+  "m_united_area": [
+    {
+      "id": 1
+    }
+  ],
+  "m_daily_quest": [
+    {
+      "id": 1
+    }
+  ],
+  "m_tline_shop_contents": [
+    {
+      "id": 1
+    }
+  ],
+  "m_united_setting": [
+    {
+      "id": 1
+    }
+  ],
+  "m_extension_ranking_reward": [
+    {
+      "id": 1
+    }
+  ],
+  "m_gacha_parts_reward": [
+    {
+      "id": 1
+    }
+  ],
+  "m_marathon_quest_reward": [
+    {
+      "id": 1
+    }
+  ],
+  "m_unit_evol_status_23": [
+    {
+      "id": 1
+    }
+  ],
+  "m_unit_misc": [
+    {
+      "id": 1
+    }
+  ],
+  "m_extension_appear": [
+    {
+      "id": 1
+    }
+  ],
+  "m_sneak_level_area": [
+    {
+      "id": 1
+    }
+  ],
+  "m_mass_setting": [
+    {
+      "id": 1
+    }
+  ],
+  "m_unit_evol_status_18": [
+    {
+      "id": 1
+    }
+  ],
+  "m_unit_evol_recipe": [
+    {
+      "id": 1
+    }
+  ],
+  "m_banner": [
+    {
+      "id": 1
+    }
+  ],
+  "m_boot_camp_reward": [
+    {
+      "id": 1
+    }
+  ],
+  "m_tline_stage_link": [
+    {
+      "id": 1
+    }
+  ],
+  "m_search": [
+    {
+      "id": 1
+    }
+  ],
+  "m_unit_evol_status_24": [
+    {
+      "id": 1
+    }
+  ],
+  "m_extra_login_bonus_reward": [
+    {
+      "id": 1
+    }
+  ],
+  "m_supporter_evol_recipe": [
+    {
+      "id": 1
+    }
+  ],
+  "m_team_language": [
+    {
+      "id": 1
+    }
+  ],
+  "m_unit_team": [
+    {
+      "id": 1
+    }
+  ],
+  "m_tline_sp_unit": [
+    {
+      "id": 1
+    }
+  ],
+  "m_unit_level_status_8": [
+    {
+      "id": 1
+    }
+  ],
+  "m_item_recipe": [
+    {
+      "id": 1
+    }
+  ],
+  "m_gacha_box_setting": [
+    {
+      "id": 1
+    }
+  ],
+  "m_period_battle_ranking_reward": [
+    {
+      "id": 1
+    }
+  ],
+  "m_tforce_gacha_line_up": [
+    {
+      "id": 1
+    }
+  ],
+  "m_supporter_adv": [
+    {
+      "id": 1
+    }
+  ],
+  "m_status_seed_level": [
+    {
+      "id": 1
+    }
+  ],
+  "m_arena_honor": [
+    {
+      "id": 1
+    }
+  ],
+  "m_tline_stage": [
+    {
+      "id": 1
+    }
+  ],
+  "m_mass_ranking_reward": [
+    {
+      "id": 1
+    }
+  ],
+  "m_unit_evol_status_17": [
+    {
+      "id": 1
+    }
+  ],
+  "m_tforce_gacha_reward": [
+    {
+      "id": 1
+    }
+  ],
+  "m_unit_slot": [
+    {
+      "id": 1
+    }
+  ],
+  "m_tforce_map": [
+    {
+      "id": 1
+    }
+  ],
+  "m_united_shop_contents": [
+    {
+      "id": 1
+    }
+  ],
+  "m_recapture_shop_price": [
+    {
+      "id": 1
+    }
+  ],
+  "m_tline_used_shop_contents": [
+    {
+      "id": 1
+    }
+  ],
+  "m_arena_season": [
+    {
+      "id": 1
+    }
+  ],
+  "m_first_item": [
+    {
+      "id": 1
+    }
+  ],
+  "m_unit_evol_status_9": [
+    {
+      "id": 1
+    }
+  ],
+  "m_unit_evol_status_11": [
+    {
+      "id": 1
+    }
+  ],
+  "m_unit_jamming_disable": [
+    {
+      "id": 1
+    }
+  ],
+  "m_quest_reward": [
+    {
+      "id": 1
+    }
+  ],
+  "m_unit_level_status_9": [
+    {
+      "id": 1
+    }
+  ],
+  "m_marathon_map": [
+    {
+      "id": 1
+    }
+  ],
+  "m_gacha_supporter_reward": [
+    {
+      "id": 1
+    }
+  ],
+  "m_extension_map": [
+    {
+      "id": 1
+    }
+  ],
+  "m_rare_boss_stage": [
+    {
+      "id": 1
+    }
+  ],
+  "m_sound_data": [
+    {
+      "id": 1
+    }
+  ],
+  "m_dress_up_shop": [
+    {
+      "id": 1
+    }
+  ],
+  "m_pile_sp_unit": [
+    {
+      "id": 1
+    }
+  ],
+  "m_battle_tactics_shop_contents": [
+    {
+      "id": 1
+    }
+  ],
+  "m_online_class": [
+    {
+      "id": 1
+    }
+  ],
+  "m_battle_tactics_shop_group": [
+    {
+      "id": 1
+    }
+  ],
+  "m_equip_status": [
+    {
+      "id": 1
+    }
+  ],
+  "m_extension_point_reward": [
+    {
+      "id": 1
+    }
+  ],
+  "m_gacha_fever_line_up_point": [
+    {
+      "id": 1
+    }
+  ],
+  "m_marathon_quest": [
+    {
+      "id": 1
+    }
+  ],
+  "m_tforce_boost_unit": [
+    {
+      "id": 1
+    }
+  ],
+  "m_training_stage": [
+    {
+      "id": 1
+    }
+  ],
+  "m_unit_level_status_6": [
+    {
+      "id": 1
+    }
+  ],
+  "m_pile_setting": [
+    {
+      "id": 1
+    }
+  ],
+  "m_arena_rank_reward": [
+    {
+      "id": 1
+    }
+  ],
+  "m_united_area_reward": [
+    {
+      "id": 1
+    }
+  ],
+  "m_united_reward": [
+    {
+      "id": 1
+    }
+  ],
+  "m_guild_raid_map": [
+    {
+      "id": 1
+    }
+  ],
+  "m_fix_item": [
+    {
+      "id": 1
+    }
+  ],
+  "m_bg_land_point": [
+    {
+      "id": 1
+    }
+  ],
+  "m_string_adv_another_morden": [
+    {
+      "id": 1
+    }
+  ],
+  "m_tforce_boost": [
+    {
+      "id": 1
+    }
+  ],
+  "m_marathon2nd_sp_unit": [
+    {
+      "id": 1
+    }
+  ],
+  "m_tline_supply_reward_condition": [
+    {
+      "id": 1
+    }
+  ],
+  "m_team_skill": [
+    {
+      "id": 1
+    }
+  ],
+  "m_united_sp_unit": [
+    {
+      "id": 1
+    }
+  ],
+  "m_story_adv": [
+    {
+      "id": 1
+    }
+  ],
+  "m_string_area_name": [
+    {
+      "id": 1
+    }
+  ],
+  "m_ultimate_mission_setting": [
+    {
+      "id": 1
+    }
+  ],
+  "m_stage": [
+    {
+      "id": 1
+    }
+  ],
+  "m_string_unit_name": [
+    {
+      "id": 1
+    }
+  ],
+  "m_unit_evol_status_1": [
+    {
+      "id": 1
+    }
+  ],
+  "m_tline_start_stage": [
+    {
+      "id": 1
+    }
+  ],
+  "m_unit_info": [
+    {
+      "id": 1
+    }
+  ],
+  "m_battle_tactics_time_reward": [
+    {
+      "id": 1
+    }
+  ],
+  "m_battle_tactics_reward": [
+    {
+      "id": 1
+    }
+  ],
+  "m_marathon_setting": [
+    {
+      "id": 1
+    }
+  ],
+  "m_shop_group": [
+    {
+      "id": 1
+    }
+  ],
+  "m_sneak_area_stage": [
+    {
+      "id": 1
+    }
+  ],
+  "m_string_adv_ops": [
+    {
+      "id": 1
+    }
+  ],
+  "m_tline_used_shop_group": [
+    {
+      "id": 1
+    }
+  ],
+  "m_battle_tactics_season": [
+    {
+      "id": 1
+    }
+  ],
+  "m_limited_offer_sale_item_relation": [
+    {
+      "id": 1
+    }
+  ],
+  "m_string_adv_name": [
+    {
+      "id": 1
+    }
+  ],
+  "m_training": [
+    {
+      "id": 1
+    }
+  ],
+  "m_unit_level_status_4": [
+    {
+      "id": 1
+    }
+  ],
+  "m_gacha_step_up": [
+    {
+      "id": 1
+    }
+  ],
+  "m_unique_action_condition": [
+    {
+      "id": 1
+    }
+  ],
+  "m_boot_camp": [
+    {
+      "id": 1
+    }
+  ],
+  "m_gacha_fever_reward_desc": [
+    {
+      "id": 1
+    }
+  ],
+  "m_unit_evol_status_12": [
+    {
+      "id": 1
+    }
+  ],
+  "m_united_used_shop_group": [
+    {
+      "id": 1
+    }
+  ],
+  "m_story_chapter_map": [
+    {
+      "id": 1
+    }
+  ],
+  "m_bg": [
+    {
+      "id": 1
+    }
+  ],
+  "m_pile_reward": [
+    {
+      "id": 1
+    }
+  ],
+  "m_recapture_shop_contents": [
+    {
+      "id": 1
+    }
+  ],
+  "m_avatar": [
+    {
+      "id": 1
+    }
+  ],
+  "m_unit_evol_status_25": [
+    {
+      "id": 1
+    }
+  ],
+  "m_unit_level_status_1": [
+    {
+      "id": 1
+    }
+  ],
+  "m_united_shop_group": [
+    {
+      "id": 1
+    }
+  ],
+  "m_string_adv_another_mars": [
+    {
+      "id": 1
+    }
+  ],
+  "m_recapture_shop_group": [
+    {
+      "id": 1
+    }
+  ],
+  "m_web_link_url": [
+    {
+      "id": 1
+    }
+  ],
+  "m_invader_drop_item": [
+    {
+      "id": 1
+    }
+  ],
+  "m_marathon2nd_map": [
+    {
+      "id": 1
+    }
+  ],
+  "m_gacha_fever_setting": [
+    {
+      "id": 1
+    }
+  ],
+  "m_gacha_step_up_setting": [
+    {
+      "id": 1
+    }
+  ],
+  "m_off_reset_time": [
+    {
+      "id": 1
+    }
+  ],
+  "m_login_reward_contents": [
+    {
+      "id": 1
+    }
+  ],
+  "m_tline_supply_reward": [
+    {
+      "id": 1
+    }
+  ],
+  "m_item": [
+    {
+      "id": 1
+    }
+  ],
+  "m_tutorial_select_unit": [
+    {
+      "id": 1
+    }
+  ],
+  "m_unit": [
+    {
+      "id": 1
+    }
+  ],
+  "m_gacha_free_time": [
+    {
+      "id": 1
+    }
+  ],
+  "m_tline_stage_supply_drop": [
+    {
+      "id": 1
+    }
+  ],
+  "m_extra_login_bonus": [
+    {
+      "id": 1
+    }
+  ],
+  "m_quest": [
+    {
+      "id": 1
+    }
+  ],
+  "m_unit_evol_status_2": [
+    {
+      "id": 1
+    }
+  ],
+  "m_unit_level_status_3": [
+    {
+      "id": 1
+    }
+  ],
+  "m_stage_reset": [
+    {
+      "id": 1
+    }
+  ],
+  "m_string_mtbl": [
+    {
+      "id": 1
+    }
+  ],
+  "m_string_adv_another_ptoremaic": [
+    {
+      "id": 1
+    }
+  ],
+  "m_enemy_deck": [
+    {
+      "id": 1
+    }
+  ],
+  "m_custom_bgm": [
+    {
+      "id": 1
+    }
+  ],
+  "m_extra_login_bonus_reward_item": [
+    {
+      "id": 1
+    }
+  ],
+  "m_string_menu": [
+    {
+      "id": 1
+    }
+  ],
+  "m_string_skill_name": [
+    {
+      "id": 1
+    }
+  ],
+  "m_tline_hidden_boss_battle_reward": [
+    {
+      "id": 1
+    }
+  ],
+  "m_gacha_step_up_reward": [
+    {
+      "id": 1
+    }
+  ],
+  "m_gacha_box_parts_reward_desc": [
+    {
+      "id": 1
+    }
+  ],
+  "m_pow_week": [
+    {
+      "id": 1
+    }
+  ],
+  "m_mass_map": [
+    {
+      "id": 1
+    }
+  ],
+  "m_limited_offer_sale_item": [
+    {
+      "id": 1
+    }
+  ],
+  "m_mars_shop_contents": [
+    {
+      "id": 1
+    }
+  ],
+  "m_battle_tactics_exclusion_unit": [
+    {
+      "id": 1
+    }
+  ],
+  "m_schedule": [
+    {
+      "id": 1
+    }
+  ],
+  "m_set_unit": [
+    {
+      "id": 1
+    }
+  ],
+  "m_string_adv_another_other": [
+    {
+      "id": 1
+    }
+  ],
+  "m_pile_rare_reward": [
+    {
+      "id": 1
+    }
+  ],
+  "m_mass_sp_unit": [
+    {
+      "id": 1
+    }
+  ],
+  "m_stamina_recovery": [
+    {
+      "id": 1
+    }
+  ],
+  "m_tline_hidden_boss": [
+    {
+      "id": 1
+    }
+  ],
+  "m_unit_evol_status_6": [
+    {
+      "id": 1
+    }
+  ],
+  "m_pow_adv_script": [
+    {
+      "id": 1
+    }
+  ],
+  "m_skill": [
+    {
+      "id": 1
+    }
+  ],
+  "m_string_tutorial": [
+    {
+      "id": 1
+    }
+  ],
+  "m_ranking_reward": [
+    {
+      "id": 1
+    }
+  ],
+  "m_mass_num_reward": [
+    {
+      "id": 1
+    }
+  ],
+  "m_arena_class": [
+    {
+      "id": 1
+    }
+  ],
+  "m_world_map": [
+    {
+      "id": 1
+    }
+  ],
+  "m_guild_raid_stage": [
+    {
+      "id": 1
+    }
+  ],
+  "m_unit_setting": [
+    {
+      "id": 1
+    }
+  ],
+  "m_string_gacha": [
+    {
+      "id": 1
+    }
+  ],
+  "m_level_up_shop": [
+    {
+      "id": 1
+    }
+  ],
+  "m_string_supporter": [
+    {
+      "id": 1
+    }
+  ],
+  "m_event_master_adv": [
+    {
+      "id": 1
+    }
+  ],
+  "m_mars_shop_campaign_rate": [
+    {
+      "id": 1
+    }
+  ],
+  "m_unit_evol_status_7": [
+    {
+      "id": 1
+    }
+  ],
+  "m_unit_evol_status_19": [
+    {
+      "id": 1
+    }
+  ],
+  "m_unit_evol_status_10": [
+    {
+      "id": 1
+    }
+  ],
+  "m_recapture_drop_treasure": [
+    {
+      "id": 1
+    }
+  ],
+  "m_limited_offer_item": [
+    {
+      "id": 1
+    }
+  ],
+  "m_recapture_map": [
+    {
+      "id": 1
+    }
+  ],
+  "m_unit_level_status_10": [
+    {
+      "id": 1
+    }
+  ],
+  "m_recapture_setting": [
+    {
+      "id": 1
+    }
+  ],
+  "m_tutorial_select_affiliation_deck": [
+    {
+      "id": 1
+    }
+  ],
+  "m_customize_affiliation": [
+    {
+      "id": 1
+    }
+  ],
+  "m_tforce_setting": [
+    {
+      "id": 1
+    }
+  ],
+  "m_extension_sp_unit": [
+    {
+      "id": 1
+    }
+  ],
+  "m_string_adv_another_sp": [
+    {
+      "id": 1
+    }
+  ],
+  "m_united_used_shop_contents": [
+    {
+      "id": 1
+    }
+  ],
+  "m_string_adv_another_regular": [
+    {
+      "id": 1
+    }
+  ],
+  "m_string_skill_info": [
+    {
+      "id": 1
+    }
+  ],
+  "m_limited_offer": [
+    {
+      "id": 1
+    }
+  ],
+  "m_gacha_premium_setting": [
+    {
+      "id": 1
+    }
+  ],
+  "m_recapture_sp_unit": [
+    {
+      "id": 1
+    }
+  ],
+  "m_period_battle": [
+    {
+      "id": 1
+    }
+  ],
+  "m_rare_boss": [
+    {
+      "id": 1
+    }
+  ],
+  "m_gacha_fever_reward": [
+    {
+      "id": 1
+    }
+  ],
+  "m_vip_rank": [
+    {
+      "id": 1
+    }
+  ],
+  "m_ultimate_mission_adv_script": [
+    {
+      "id": 1
+    }
+  ],
+  "m_unit_evol_status_15": [
+    {
+      "id": 1
+    }
+  ],
+  "m_string_limited_offer": [
+    {
+      "id": 1
+    }
+  ],
+  "m_unit_level_status_2": [
+    {
+      "id": 1
+    }
+  ],
+  "m_unit_level_status_5": [
+    {
+      "id": 1
+    }
+  ],
+  "m_ultimate_mission_enemy": [
+    {
+      "id": 1
+    }
+  ],
+  "m_status_seed": [
+    {
+      "id": 1
+    }
+  ],
+  "m_unit_evol_status_3": [
+    {
+      "id": 1
+    }
+  ],
+  "m_guild_soldier": [
+    {
+      "id": 1
+    }
+  ],
+  "m_unit_skill_up": [
+    {
+      "id": 1
+    }
+  ],
+  "m_web_link": [
+    {
+      "id": 1
+    }
+  ],
+  "m_world_area_map": [
+    {
+      "id": 1
+    }
+  ],
+  "m_recapture_point_reward": [
+    {
+      "id": 1
+    }
+  ],
+  "m_tline_shop_group": [
+    {
+      "id": 1
+    }
+  ],
+  "m_equip": [
+    {
+      "id": 1
+    }
+  ],
+  "m_pile_quest_reward": [
+    {
+      "id": 1
+    }
+  ],
+  "m_pow_reward_clear": [
+    {
+      "id": 1
+    }
+  ],
+  "m_string_adv_serif": [
+    {
+      "id": 1
+    }
+  ],
+  "m_unit_usable": [
+    {
+      "id": 1
+    }
+  ],
+  "m_gacha_extra": [
+    {
+      "id": 1
+    }
+  ],
+  "m_pile_quest": [
+    {
+      "id": 1
+    }
+  ],
+  "m_build_up": [
+    {
+      "id": 1
+    }
+  ],
+  "m_gacha_box_reward": [
+    {
+      "id": 1
+    }
+  ],
+  "m_unit_movie_url": [
+    {
+      "id": 1
+    }
+  ],
+  "m_unit_evol_status_4": [
+    {
+      "id": 1
+    }
+  ],
+  "m_unit_evol_status_13": [
+    {
+      "id": 1
+    }
+  ],
+  "m_campaign": [
+    {
+      "id": 1
+    }
+  ],
+  "m_marathon_reward": [
+    {
+      "id": 1
+    }
+  ],
+  "m_shop_contents": [
+    {
+      "id": 1
+    }
+  ]
 }
