@@ -35,7 +35,10 @@ func main() {
 		JSONDecoder:  sonic.Unmarshal,
 		ErrorHandler: utils.DefaultErrorHandler,
 	})
-
+     app.Use(func(c *fiber.Ctx) error {
+    log.Info().Str("method", c.Method()).Str("path", c.Path()).Msg("fiber_trace")
+    return c.Next()
+    })
 	app.Use(cors.New())
 
 	// Set default headers
