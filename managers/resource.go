@@ -33,5 +33,8 @@ func GenerateFileList() []FileData {
     if len(files) > 0 {
         log.Info().Str("sample_url", files[0].URL).Msg("checking first file url")
     }
+	for i := range files {
+    files[i].URL = "https://msa-server.onrender.com/snkp/msatk/prod/assets/" + files[i].FileName
+}
 	return files
 }
