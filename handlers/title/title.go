@@ -22,7 +22,9 @@ func GetPackInfo(c *fiber.Ctx) error {
     host := c.Hostname()
     proto := c.Protocol()
     actualPackInfoURL := fmt.Sprintf("%s://%s/snkp/msatk/prod/pack/6120000/pack_info_list.txt", proto, host)
-
+ 
+	c.Set("Content-Type", "application/json")
+	
     return c.Status(fiber.StatusOK).JSON(fiber.Map{
         "status":       0,
         "response":     0,
