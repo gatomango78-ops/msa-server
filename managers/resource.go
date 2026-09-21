@@ -35,5 +35,6 @@ func GenerateFileList() []FileData {
     }
 	for i := range files {
     files[i].URL = fmt.Sprintf("https://msa-server.onrender.com/data/6120000/%s", files[i].FileName)
+	}
 	return files
 }
