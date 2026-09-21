@@ -51,6 +51,9 @@ func GetFileList(c *fiber.Ctx) error {
 }
 
 func GetMasterTable(c *fiber.Ctx) error {
+	rawQuery := string(c.Request().URI().QueryString())
+    log.Info().Str("raw_query", rawQuery).Msg("debug_master_table_request")
+	
 	tableNames := c.Context().QueryArgs().PeekMulti("table[]")
 	requestedTables := make([]string, 0, len(tableNames))
 	for _, tableName := range tableNames {
@@ -86,7 +89,8 @@ func GetMasterTable(c *fiber.Ctx) error {
 	}
    responseBytes, _ := sonic.Marshal(responseTable)
         log.Info().Int("response_table_bytes_v3", len(responseBytes)).Msg("sending master_table payload v3")
-	return c.Status(fiber.StatusOK).JSON(fiber.Map{
+        log.Info().Str("response_body", string(responseBytes)).Msg("debug_master_table_response")	
+		return c.Status(fiber.StatusOK).JSON(fiber.Map{
 		"master_ver": 7130000,
 		"status":     0,
 		"response":   0,
